@@ -1,0 +1,33 @@
+body{
+    background-color: #404043;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+}
+header{
+    text-align: center;
+    font-size: larger;
+}
+#image{
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin:auto;
+    border-radius: 20px;
+}
+#tribute-info{
+    background-color:#60606f;
+    border-radius: 20px;
+    margin:0 10rem;
+    padding:10px;
+    display:block;
+}
+#tribute-info h2{
+    text-align: center;
+    font-size: 30px;
+}
+#img-caption{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}

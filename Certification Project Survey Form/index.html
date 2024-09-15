@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Survey</title>
+
+  <body>
+    <h1 id="title">Student Survery</h1>
+    <p id="description">Student info </p>
+  </body>
+  
+  <fieldset>
+
+
+      <form id="survey-form">
+        <div>
+          <label for="name-label" id = "name-label">Name: </label>
+          <input type="text" id="name" required placeholder="Your Name">
+          <label for="email-label" id = "email-label">Email: </label>
+          <input type="email" id="email" required placeholder="Your Email">
+          <label for="number-label" id ="number-label">Grade: </label>
+          <input type="number" id="number" min = "1" max = "4" placeholder=" 1 to 4">
+        </div>
+
+        <div>
+          <legend>University or College? (required)</legend>
+          <label for="Uni">
+          <input id="Uni" type="radio" name="typeofschool" checked value = "UNI"/> University</label>
+          <label for="college">
+          <input id="college" type="radio" name="typeofschool" value = "COLLEGE"/> College</label>
+        </div>
+
+        <div>
+          <label>How do you travel?</label>
+          Dorm<input type = "checkbox" value = "commute">
+          Commute<input type = "checkbox" value = "dorm">
+        </div>
+
+        <div>
+        <label>Favorite Food?</label>
+        <select id ="dropdown">
+          <option name = "food" value="">(select one)</option>
+          <option name = "food" value="Pizza">Pizza</option>
+          <option name = "food" value="Burger">Burger</option>
+        </select>
+        </div>
+        <textarea placeholder="Anything else"></textarea>
+        
+        <input id ="submit" type = "submit"></input>
+      </form>
+  </fieldset>
+
+    
+
+    
+
+
+
+<input type="submit" value="Submit" />
+</html>
+
+
